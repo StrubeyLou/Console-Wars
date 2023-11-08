@@ -259,6 +259,13 @@ ORDER BY Global_Sales DESC NULLS LAST;
 --Q20) Mario is probably the most popular videogame of all time. How many games include his name in the title?
 
 SELECT 
+count(*) AS Mario_Games
+FROM foo 
+WHERE Name LIKE "%Mario%"
+
+--Q21) As the consoles have progressed have they used his name in more or less of their gaming titles?
+
+SELECT 
 Platform,
 count(*) AS Mario_Games
 FROM foo 
