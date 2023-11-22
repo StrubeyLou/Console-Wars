@@ -1,7 +1,7 @@
 # Console Wars
  Using a Kaggle dataset of videogame releases from 1980 to 2016 this will bring analyisis on the best selling and most critically acclaimed games. 
  
- Overview of Date
+ Overview of Data
 
 Whilst I have used this data to display the difference between consoles and publishers it should be noted this is data based on the number of games sold, there is no data on the sale of console units.
 An example where this could be an issue is the likes of generation 6 where the Wii vastly outsold PS3 and XBox360 in terms of consoles but all three are very close in terms of game sales. 
